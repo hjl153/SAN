@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    tools:context=".zhuye">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/tit"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/shou" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/type1"
+                android:layout_width="160dp"
+                android:layout_height="116dp"
+                android:layout_marginLeft="15dp"
+                android:background="#F2F2F2"
+                android:scaleType="fitXY"
+                android:src="@mipmap/x4" />
+
+            <ImageButton
+                android:id="@+id/type2"
+                android:layout_width="160dp"
+                android:layout_height="116dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="15dp"
+                android:background="#F2F2F2"
+                android:scaleType="fitXY"
+                android:src="@mipmap/x3" />
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/type3"
+                android:layout_width="160dp"
+                android:layout_height="116dp"
+                android:layout_marginLeft="15dp"
+                android:background="#F2F2F2"
+                android:scaleType="fitXY"
+                android:src="@mipmap/x2" />
+
+            <ImageButton
+                android:id="@+id/type4"
+                android:layout_width="160dp"
+                android:layout_height="116dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="15dp"
+                android:background="#F2F2F2"
+                android:scaleType="fitXY"
+                android:src="@mipmap/x1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="30dp"
+                android:background="#F2F2F2"
+                android:src="@mipmap/u91" />
+
+            <TextView
+                android:id="@+id/del"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="拨打客服电话"
+                android:textColorLink="#454545"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

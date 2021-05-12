@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#F2F2F2"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="修改资料"
+        android:textColor="#454545"
+        android:layout_marginTop="30dp"
+        android:textSize="36sp" />
+
+    <RelativeLayout
+        android:id="@+id/re_name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/tv_temp_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="用户名"
+            android:textColor="#454545"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/tv_name2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@id/tv_temp_name"
+            android:ellipsize="end"
+            android:singleLine="true"
+
+            android:textColor="#454545"
+            android:textSize="24sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="#dadada" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/re_region"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/getadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="年龄"
+            android:textColor="#454545"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/tv_dianwei2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@id/getadd"
+            android:ellipsize="end"
+            android:singleLine="true"
+
+            android:textColor="#454545"
+            android:textSize="24sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="#dadada" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/dianhua"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:clickable="true">
+
+
+        <TextView
+            android:id="@+id/tv_temp_region1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="手机号"
+            android:textColor="#454545"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/tv_dianhua2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@id/tv_temp_region1"
+            android:ellipsize="end"
+            android:hint="11111111"
+
+            android:singleLine="true"
+            android:textColor="#454545"
+            android:textSize="24sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="#dadada" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/youxiang"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:clickable="true">
+
+
+        <TextView
+            android:id="@+id/tv_temp_region2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="住址"
+            android:textColor="#454545"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/tv_youxiang2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@id/tv_temp_region2"
+            android:ellipsize="end"
+            android:singleLine="true"
+
+            android:textColor="#454545"
+            android:textSize="24sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="#dadada" />
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/ty"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:clickable="true">
+
+
+        <TextView
+            android:id="@+id/region4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:text="服务人员类型"
+            android:textColor="#454545"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/Rg3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="@id/region4"
+            android:layout_marginLeft="100dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/zhuanye"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginBottom="0dp"
+                android:focusable="false"
+                android:gravity="left"
+                android:text="专业护工"
+                android:textColor="#008489"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/putong"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_marginBottom="0dp"
+                android:focusable="false"
+                android:gravity="center"
+                android:text="普通志愿者"
+                android:textColor="#008489"
+                android:textSize="18sp" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="#dadada" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/re_sex"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true">
+
+
+        <TextView
+            android:id="@+id/tv_temp_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:text="性别"
+            android:textColor="#454545"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/Rg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="@id/tv_temp_sex"
+            android:layout_marginLeft="100dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/Nan"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginBottom="0dp"
+                android:focusable="false"
+                android:gravity="center"
+                android:text="男"
+                android:textColor="#008489"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/Nv"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_marginBottom="0dp"
+                android:focusable="false"
+                android:gravity="center"
+                android:text="女"
+                android:textColor="#008489"
+                android:textSize="18sp" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="#dadada" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/miaoshu"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:clickable="true">
+
+
+        <TextView
+            android:id="@+id/xm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="技能描述"
+            android:textColor="#454545"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/say"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@id/xm"
+            android:ellipsize="end"
+            android:singleLine="true"
+
+            android:textColor="#454545"
+            android:textSize="24sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="#dadada" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/baocun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/button_circle_shape"
+            android:backgroundTint="#008489"
+            android:gravity="center"
+            android:text="保存"
+            android:textColor="#F2F2F2"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="#dadada" />
+    </RelativeLayout>
+
+</LinearLayout>

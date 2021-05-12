@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    tools:context=".wenyu">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="文娱社交"
+        android:textColor="#454545"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="36sp" />
+
+    <ImageButton
+        android:id="@+id/a5"
+        android:layout_width="match_parent"
+        android:layout_height="188dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="15dp"
+        android:background="#F2F2F2"
+        android:scaleType="fitXY"
+        android:src="@mipmap/a5" />
+
+    <ImageButton
+        android:id="@+id/a6"
+        android:layout_width="match_parent"
+        android:layout_height="188dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="15dp"
+        android:background="#F2F2F2"
+        android:scaleType="fitXY"
+        android:src="@mipmap/a6" />
+        <ImageButton
+            android:id="@+id/a18"
+            android:layout_width="match_parent"
+            android:layout_height="188dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="15dp"
+            android:background="#F2F2F2"
+            android:scaleType="fitXY"
+            android:src="@mipmap/a18" />
+        <ImageButton
+            android:id="@+id/a19"
+            android:layout_width="match_parent"
+            android:layout_height="188dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="15dp"
+            android:background="#F2F2F2"
+            android:scaleType="fitXY"
+            android:src="@mipmap/a19" />
+        <ImageButton
+            android:id="@+id/a20"
+            android:layout_width="match_parent"
+            android:layout_height="188dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="15dp"
+            android:background="#F2F2F2"
+            android:scaleType="fitXY"
+            android:src="@mipmap/a20" />
+    </LinearLayout>
+</ScrollView>

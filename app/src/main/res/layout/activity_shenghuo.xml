@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#F2F2F2"
+    tools:context=".shenghuo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="生活服务"
+            android:textColor="#454545"
+            android:textSize="36sp" />
+
+
+        <ImageButton
+            android:id="@+id/a1"
+            android:layout_width="match_parent"
+            android:layout_height="188dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="15dp"
+            android:background="#F2F2F2"
+            android:scaleType="fitXY"
+            android:src="@mipmap/a1" />
+
+        <ImageButton
+            android:id="@+id/a2"
+            android:layout_width="match_parent"
+            android:layout_height="188dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="15dp"
+            android:background="#F2F2F2"
+            android:scaleType="fitXY"
+            android:src="@mipmap/a2" />
+
+        <ImageButton
+            android:id="@+id/a9"
+            android:layout_width="match_parent"
+            android:layout_height="188dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="15dp"
+            android:background="#F2F2F2"
+            android:scaleType="fitXY"
+            android:src="@mipmap/a9" />
+
+        <ImageButton
+            android:id="@+id/a10"
+            android:layout_width="match_parent"
+            android:layout_height="188dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="15dp"
+            android:background="#F2F2F2"
+            android:scaleType="fitXY"
+            android:src="@mipmap/a10" />
+
+        <ImageButton
+            android:id="@+id/a11"
+            android:layout_width="match_parent"
+            android:layout_height="188dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="15dp"
+            android:background="#F2F2F2"
+            android:scaleType="fitXY"
+            android:src="@mipmap/a11" />
+
+    </LinearLayout>
+</ScrollView>

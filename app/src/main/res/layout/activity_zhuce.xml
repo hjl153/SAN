@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@mipmap/j2"
+    android:layout_height="match_parent">
+
+    <!--自定义的下划线EditText-->
+    <EditText
+        android:id="@+id/edit_phone"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/edit_code"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="280dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_circle_shape"
+        android:backgroundTint="#355859"
+        android:ems="10"
+        android:hint="你的手机号"
+        android:inputType="textPersonName"
+        android:textColor="#F2F2F2"
+        android:textColorHint="#F2F2F2F2"
+        android:textColorLink="#F2F2F2F2" />
+
+    <EditText
+        android:id="@+id/edit_code"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/edit_phone"
+        android:layout_alignStart="@+id/btn_register"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_circle_shape"
+        android:backgroundTint="#355859"
+        android:ems="10"
+        android:hint="请输入验证码"
+        android:inputType="textPersonName"
+        android:textColor="#F2F2F2"
+        android:textColorHint="#F2F2F2F2"
+        android:textColorLink="#F2F2F2F2" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/edit_code"
+        android:layout_alignStart="@+id/btn_register"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_circle_shape"
+        android:backgroundTint="#355859"
+        android:ems="10"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:textColor="#F2F2F2"
+        android:textColorHint="#F2F2F2F2"
+        android:textColorLink="#F2F2F2F2" />
+
+    <EditText
+        android:id="@+id/apass"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/pass"
+        android:layout_alignStart="@+id/btn_register"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_circle_shape"
+        android:backgroundTint="#355859"
+        android:ems="10"
+        android:hint="请确认密码"
+        android:inputType="textPassword"
+        android:textColor="#F2F2F2"
+        android:textColorHint="#F2F2F2F2"
+        android:textColorLink="#F2F2F2F2" />
+
+    <Button
+        android:id="@+id/btn_getcord"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/edit_code"
+        android:layout_alignEnd="@+id/edit_phone"
+        android:layout_alignBottom="@+id/edit_code"
+        android:background="@drawable/button_circle_shape"
+        android:onClick="onClick"
+        android:text="获取验证码"
+        android:textColor="#454545" />
+
+    <TextView
+        android:id="@+id/btn_register"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/apass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_circle_shape"
+        android:backgroundTint="#00000000"
+        android:text="注册"
+        android:textColor="#454545"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/btn_register2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/apass"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="18dp"
+        android:backgroundTint="#00000000"
+        android:onClick="onClick"
+        android:scaleType="fitXY"
+        android:src="@mipmap/jian" />
+
+</RelativeLayout>
+

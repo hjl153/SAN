@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.mob.sdk'
+
+MobSDK {
+    appKey "32a4dfa72b37a"
+    appSecret "ba537f7bba03d40ce142cba59565891c"
+    SMSSDK {}
+}
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+    defaultConfig {
+        applicationId "com.example.san"
+        minSdkVersion 24
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        manifestPlaceholders = [
+                GETUI_APP_ID    : "CdcOeFxYEqACxjI8xhp4R2",
+                GETUI_APP_KEY   : "kIkJERIcqS7YWsyUafPEk1",
+                GETUI_APP_SECRET: "glN3w9VeFT9CJrjWCOfDP7"
+        ]
+        ndk {
+            abiFilters "arm64-v8a", "armeabi-v7a"
+        }
+        sourceSets {
+            main {
+                jniLibs.srcDir 'libs'
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.navigation:navigation-fragment:2.0.0'
+    implementation 'androidx.navigation:navigation-ui:2.0.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+    implementation 'androidx.annotation:annotation:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    implementation files('libs/mysql-connector-java-5.1.30-bin.jar')
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.gms:play-services-maps:16.1.0'
+    implementation 'com.github.bumptech.glide:glide:4.3.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.3.1'
+    implementation files('libs/Msc.jar')
+    implementation 'com.google.code.gson:gson:2.2.4'
+    implementation 'com.getui:sdk:2.12.5.0'
+    implementation files('libs/BaiduLBS_Android.jar')
+}
